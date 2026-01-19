@@ -3,7 +3,7 @@ FROM nginx:alpine
 
 
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY _site /usr/share/nginx/html
+# COPY _site /usr/share/nginx/html
 COPY ads.txt /usr/share/nginx/html
 
 EXPOSE 80
